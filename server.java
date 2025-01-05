@@ -3,7 +3,7 @@ import java.net.*;
 
 public class Server {
     public static void main(String[] args) {
-        int serverPort = 9090; 
+        int serverPort = 8000; 
 
         try (ServerSocket serverSocket = new ServerSocket(serverPort)) {
             System.out.println("Server started and waiting for connections...");
