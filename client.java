@@ -4,7 +4,7 @@ import java.net.*;
 public class Client {
     public static void main(String[] args) {
         String serverAddress = "localhost"; 
-        int serverPort = 9090; 
+        int serverPort = 8000; 
 
         try (Socket socket = new Socket(serverAddress, serverPort)) {
             System.out.println("Connected to the server!");
